@@ -1,0 +1,48 @@
+<circuit animate="1" speed="1000000" reactStep="50" type="simulide_0.4" noLinAcc="5">
+ 
+Node-17: 
+<item valLabRot="0" rotation="0" vflip="1" valLabely="0" objectName="Node-17" valLabelx="0" Show_id="false" labelx="-16" id="Node-17" labelrot="0" hflip="1" labely="-24" y="-324" itemtype="Node" x="-104"/>
+ 
+atmega2560-6: 
+<item Show_id="true" Logic_Symbol="false" Auto_Load="false" itemtype="AVR" vflip="1" objectName="atmega2560-6" Program="" Init_gdb="false" valLabRot="0" valLabely="0" Mhz="16" rotation="0" labelx="0" valLabelx="0" labely="-20" eeprom="0" labelrot="0" id="atmega2560-2" hflip="1" y="-412" x="28"/>
+ 
+Hd44780-5: 
+<item valLabRot="0" rotation="0" vflip="1" valLabely="0" objectName="Hd44780-5" valLabelx="0" Show_id="true" labelx="70" id="Hd44780-4" labelrot="0" hflip="1" labely="-82" Cols="16" y="-348" itemtype="Hd44780" x="-364" Rows="2"/>
+ 
+Fixed Voltage-4: 
+<item Show_id="false" itemtype="Fixed Voltage" vflip="1" objectName="Fixed Voltage-4" valLabRot="0" valLabely="8" rotation="90" labelx="-64" valLabelx="-16" Show_Volt="true" labely="-24" Voltage="5" labelrot="0" id="Fixed Voltage-5" hflip="1" Unit=" V" y="-452" x="-104"/>
+ 
+Ground-3: 
+<item valLabRot="0" rotation="0" vflip="1" valLabely="0" objectName="Ground-3" valLabelx="0" Show_id="false" labelx="-16" id="Ground-6" labelrot="0" hflip="1" labely="8" y="-104" itemtype="Ground" x="-104"/>
+ 
+Connector-9: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-9" valLabRot="0" enodeid="enode-9" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-348,-340,-348,-308,-44,-308,-44,-160,156,-160,156,-180" startpinid="Hd44780-5-PinRS" endpinid="atmega2560-6-PL5" labely="-24" labelrot="0" id="Connector-9" hflip="1" y="-340" x="-348"/>
+ 
+Connector-10: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-10" valLabRot="0" enodeid="enode-10" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-332,-340,-332,-312,-28,-312,-28,-164,148,-164,148,-180" startpinid="Hd44780-5-PinEn" endpinid="atmega2560-6-PL4" labely="-24" labelrot="0" id="Connector-10" hflip="1" y="-340" x="-332"/>
+ 
+Connector-11: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-11" valLabRot="0" enodeid="enode-11" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-292,-340,-292,-260,-8,-260,-8,-84,140,-84,140,-180" startpinid="Hd44780-5-dataPin4" endpinid="atmega2560-6-PL3" labely="-24" labelrot="0" id="Connector-11" hflip="1" y="-340" x="-292"/>
+ 
+Connector-12: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-12" valLabRot="0" enodeid="enode-12" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-284,-340,-284,-268,-52,-268,-52,-96,132,-96,132,-180" startpinid="Hd44780-5-dataPin5" endpinid="atmega2560-6-PL2" labely="-24" labelrot="0" id="Connector-12" hflip="1" y="-340" x="-284"/>
+ 
+Connector-13: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-13" valLabRot="0" enodeid="enode-13" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-276,-340,-276,-272,-60,-272,-60,-108,124,-108,124,-180" startpinid="Hd44780-5-dataPin6" endpinid="atmega2560-6-PL1" labely="-24" labelrot="0" id="Connector-13" hflip="1" y="-340" x="-276"/>
+ 
+Connector-14: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-14" valLabRot="0" enodeid="enode-14" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-268,-340,-268,-276,-64,-276,-64,-116,116,-116,116,-180" startpinid="Hd44780-5-dataPin7" endpinid="atmega2560-6-PL0" labely="-24" labelrot="0" id="Connector-14" hflip="1" y="-340" x="-268"/>
+ 
+Connector-15: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-15" valLabRot="0" enodeid="enode-16" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-340,-340,-340,-324,-104,-324" startpinid="Hd44780-5-PinRW" endpinid="Node-17-0" labely="-24" labelrot="0" id="Connector-15" hflip="1" y="-340" x="-340"/>
+ 
+Connector-16: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-16" valLabRot="0" enodeid="enode-16" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-104,-436,-104,-324" startpinid="Fixed Voltage-4-outnod" endpinid="Node-17-1" labely="-24" labelrot="0" id="Connector-16" hflip="1" y="-436" x="-104"/>
+ 
+Connector-18: 
+<item Show_id="false" itemtype="Connector" vflip="1" objectName="Connector-18" valLabRot="0" enodeid="enode-16" valLabely="0" rotation="0" labelx="-16" valLabelx="0" pointList="-104,-324,-104,-120" startpinid="Node-17-2" endpinid="Ground-3-Gnd" labely="-24" labelrot="0" id="Connector-18" hflip="1" y="-324" x="-104"/>
+ 
+PlotterWidget-7: 
+<item windowModality="0" mouseTracking="false" x="0" frameSize="" rect="" whatsThis="" layoutDirection="0" focusPolicy="0" minimumSize="" normalGeometry="" Scale="1" sizePolicy="" modal="false" palette="" geometry="" size="" styleSheet="" objectName="PlotterWidget-7" windowFilePath="" maximumHeight="200" contextMenuPolicy="1" autoFillBackground="false" sizeHint="" cursor="" MinVolt="-500" Tracks="1" accessibleDescription="" visible="false" childrenRect="" toolTip="" accessibleName="" minimumWidth="200" font=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" childrenRegion="" windowModified="false" sizeIncrement="" statusTip="" height="200" frameGeometry="" itemtype="Plotter" minimized="false" acceptDrops="false" windowIcon="" maximumSize="" toolTipDuration="-1" enabled="true" locale="" minimumSizeHint="" focus="false" isActiveWindow="true" y="0" fullScreen="false" windowOpacity="1" MaxVolt="500" tabletTracking="false" windowTitle="" inputMethodHints="0" baseSize="" minimumHeight="200" maximumWidth="1000" pos="" maximized="false" updatesEnabled="true" width="200" windowIconText=""/>
+ 
+</circuit>
